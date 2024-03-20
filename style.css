@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Cherokee:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-right: 40px;
+    justify-content: right;
+}
+#search{
+    border-radius: 3px;
+    padding: 6px;
+    
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 36px;
+    font-size: 20px;
+}
+a:hover{
+        transform: scale(1.1);
+        transition: 300ms linear;
+        opacity: 0.6; 
+        cursor: pointer;
+}
+
+.texto{
+    color: bisque;
+    font-size: 110px;
+    margin-top: 140px;
+    float: right;
+    margin-right: 40px;
+    font-family: "Noto Sans Cherokee", sans-serif;
+}
+.botao{
+    margin-top: 53%;
+    text-align: right;
+    padding-right: 30px;
+}
+.join-button{
+    font-family: "Noto Sans Cherokee", sans-serif;;
+    font-size: x-large;
+    height: 35px;
+    width: 160px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    background-color: bisque  ;
+}
+.join-button:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+    transition: 300ms step-start;
+    cursor: pointer;
+}
+
+/* **********tela da criação de conta********** */
+
+.container-signin{
+    display: flex;
+    background-color: rgba(240, 120, 7, 0.747);
+    position: absolute;
+    flex-direction: column;
+    padding: 40px;
+    top: 15%;
+    left: 35%;
+    border-radius: 11px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+#formularioSignin{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 30px;
+}
+#email{
+    text-align: center;
+    border-radius: 8px;
+    height: 40px;
+    width: 250px;
+}
+#senha{
+    text-align: center;
+    border-radius: 8px;
+    height: 40px;
+    width: 250px;
+}
+#confirm{
+    text-align: center;
+    border-radius: 8px;
+    height: 40px;
+    width: 250px;
+}
+#signin{
+    color: white;
+    background-color: rgb(44, 138, 175);
+    border-radius: 10px;
+    padding: 9px;
+    margin-left: 70px;
+    width: 100px;
+}
+#signin:hover{
+    transform: scale(1.1);
+    transition: 300ms step-start;
+    cursor: pointer;
+    background-color: rgba(18, 209, 209, 0.842);
+}
+.already-account{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 20px;
+}
+#h2-signin{
+    color: white;
+    font-size: 30px;
+    margin: 30px;
+}
+
+/* **********tela para Entrar numa conta já existente********** */
+
+.container-login{
+    background-color: rgba(110, 228, 236, 0.795);
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px 30px;
+    top: 17%;
+    left: 35%;
+    border-radius: 11px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+#email-login{
+    text-align: center;
+    border-radius: 8px;
+    height: 40px;
+    width: 250px;
+}
+#senha-login{
+    text-align: center;
+    border-radius: 8px;
+    height: 40px;
+    width: 250px;
+}
+#login{
+    color: white;
+    background-color: rgb(44, 138, 175);
+    border-radius: 10px;
+    padding: 9px;
+    margin-left: 70px;
+    width: 100px;
+}
+
+#login:hover{
+    transform: scale(1.1);
+    transition: 300ms step-start;
+    cursor: pointer;
+    background-color: rgba(18, 209, 209, 0.842);
+}
+#h2-login{
+    color: white;
+    font-size: 30px;
+    margin: 30px;
+}
