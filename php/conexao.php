@@ -1,8 +1,8 @@
 <?php
-    $servidor = "localhost";
+    $servidor = "monorail.proxy.rlwy.net";
     $usuario = "root";
-    $senha = "";
-    $dbname = "yoga";
+    $senha = "HcucOwikScRrtPFjJAeyqDfBXHJQOLFc";
+    $dbname = "primeevents";
 
     $conexao = mysqli_connect($servidor,$usuario,$senha,$dbname);
     if(!$conexao){
