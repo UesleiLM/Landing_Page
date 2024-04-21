@@ -4,24 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <title>Tela signin</title>
+    <title>Tela signup</title>
 </head>
 <body  id="body-signin"   style="background-image: url(Images/imagem_signin.png); background-size: cover;">
     <a href="index.html"><h2 id="h2-signin">Home</h2></a>
     <div class="container-signin">
-        <h1>Sign in</h1>
-        <form id="formularioSignin" action="cadastro.php" method="post">
+        <form action="db/cadastro.php" method="post" id="formularioSignin">
+        <h1>Sign up</h1>
         <input id="email" type="text" name = "email" placeholder="Insira um E-mail">
         <input id="senha" type="password" name = "senha" placeholder="Insira uma Senha">
         <input id="confirm" type="password" name = "confirmaSenha" placeholder="Confirmar Senha">
         <div class="botao-signin">
-            <button onclick="mostrarAlerta()" id="signin">Criar conta</button>
+            <button id="signin">Criar conta</button>
         </div>
     </form>
         <div class="already-account">
             <a href="login.html"><p>Já tenho uma conta</p></a>
         </div>
     </div>
-    <script src="JS/script.js"></script>
 </body>
 </html>

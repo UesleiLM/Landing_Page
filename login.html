@@ -10,13 +10,13 @@
     <div class="login-voltar">
         <a href="index.html"><h2 id="h2-login" >Home</h2></a>
     </div>
-    <div class="container-login">
-        <h1 id="h1-login">Login</h1>
-        <input id="email-login" type="text" placeholder="Insira o E-mail">
-        <input id="senha-login" type="text" placeholder="Insira a senha">
-        <div class="botao-login">
-            <button id="login">Entrar</button>
-        </div>
-    </div>
+        <form class="container-login" action="db/autenticacao.php" method="post">
+            <h1 id="h1-login">Login</h1>
+            <input id="email-login" name="email" type="text" placeholder="Insira o E-mail">
+            <input id="senha-login" name="senha" type="password" placeholder="Insira a senha">
+            <div class="botao-login">
+                <button id="login">Entrar</button>
+            </div>    
+        </form>     
 </body>
 </html>
